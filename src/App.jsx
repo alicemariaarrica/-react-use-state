@@ -5,7 +5,7 @@
 //Fare in modo che, cliccando uno dei bottoni, la card in basso visualizzi il linguaggio corrispondente e la relativa descrizione
 
 import React from 'react';
-import { createFunction } from './hooks/createFunction';
+import { createFunction } from './hooks/logic.js';
 import './App.css';
 
 function App() {
