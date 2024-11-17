@@ -13,22 +13,25 @@ function App() {
   const { selectedCard, selectCard } = createFunction();
 
   return (
-    <><div className="App">
+    <div className="App">
 
       <div className="buttons-container">
         {data.map((card, index) => (
           <button
             key={index}
             onClick={() => selectCard(card)}
+          >
+            {card.name}
+          </button>
+        ))}
+      </div>
 
-            {...card.name} />))}
-      </button>
-      ))}
-    </div><div className="card">
+
+      <div className="card">
         <h2>{selectedCard.name}</h2>
         <p>{selectedCard.description}</p>
-      </div></>
-    </div >
+      </div>
+    </div>
   );
 }
 
