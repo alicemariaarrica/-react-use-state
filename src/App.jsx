@@ -4,16 +4,4 @@
 //Inserisci sotto una card che mostri il titolo e la descrizione del primo linguaggio nell’array.
 //Fare in modo che, cliccando uno dei bottoni, la card in basso visualizzi il linguaggio corrispondente e la relativa descrizione
 
-import './App.css'
 
-function App() {
-
-
-  return (
-    <>
-
-    </>
-  )
-}
-
-export default App
